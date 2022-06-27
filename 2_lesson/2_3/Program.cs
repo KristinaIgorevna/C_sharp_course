@@ -1,23 +1,14 @@
-﻿static int CheckinValues(in int val1, in int val2)
-        {
-            return (val1 % val2);
-        }
-        
-        static void Main(string[] args)
-        {
-            Console.Write("Введите первое число ");
-            int value1 = int.Parse(Console.ReadLine());
-            Console.Write("Введите второе число ");
-            int value2 = int.Parse(Console.ReadLine());
+﻿void OneOfNum(int num_1, int num_2)
+{       
+    if (num_1 % num_2 == 0)
+    {
+        Console.WriteLine($"{num_1}, {num_2} -> multiple");
+    }
+    else
+    {
+        Console.WriteLine($"{num_1}, {num_2} -> not multiple, the remainder {num_1 % num_2}");        
+    }    
+}
 
-            int val = CheckinValues(in value1, in value2);
-
-            if (val == 0)
-            {
-                Console.WriteLine("Числа кратные");
-            }
-            else
-            {
-                Console.WriteLine($"Остаток от деления {val}");
-            }
-        }
+OneOfNum(16, 4);
+OneOfNum(22, 4);
