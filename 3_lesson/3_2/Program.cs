@@ -1,6 +1,5 @@
 ﻿// По номеру четверти выводит диапазон
 
-
 void Quarters(int Number)
 {
     if (Number == 1) Console.WriteLine("x>0 & y>0");
