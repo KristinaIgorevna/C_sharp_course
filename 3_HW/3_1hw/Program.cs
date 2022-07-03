@@ -2,19 +2,13 @@
 // проверяет является ли оно палиндромом
 
 
-void Num(int num)
+void Num(string num)
 {
-
-int index = 0;
-while (index < 5)
-{
-  if (index[1]= index[5] & index[2] = index[4])
-{
-Console.WriteLine("да");
-}
-else Console.WriteLine("нет");  
-index++;
+    if (num[0] == num[4] && num[1] == num[3])
+    {
+        Console.WriteLine("да");
+    }
+    else Console.WriteLine("нет");
 }
 
-}
-Num(12421);
+Num("12421");
