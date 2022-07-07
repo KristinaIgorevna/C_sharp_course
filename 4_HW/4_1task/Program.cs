@@ -1,17 +1,16 @@
 ﻿// напишите цикл, который принимает на вход два числа А ,В и возводит А в натуральную степень В
 
 
-int B (int num)
+int PowNum(int a, int b)
 {
-    int A = 3;
+    int n_pow = a;
     {
-    for (int i = 1; i <= num; i++)
-    {
-        Console.WriteLine(Math.Pow(A, i));
-
-    }
-    return A;
+        for (int i = 2; i <= b; i++)
+        {
+            Console.WriteLine(Math.Pow(a, i));
+        }
+        return n_pow;
     }
 }
 
-Console.WriteLine(A(5));
+Console.WriteLine(PowNum(3, 4));
