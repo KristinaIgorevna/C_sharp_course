@@ -1,12 +1,26 @@
-﻿// программу, которая принимает на вход три числа и
-// проверяет может ли сущ-вать треугольник
-// такой длины
+﻿// десятичное в двоичное
 
-void Triangle (int numA,int numB, int numC)
-	{
-	    if(numA + numB > numC && numA + numC > numB && numB + numC > numA)
-	    Console.WriteLine("Треугольник существует!");
-	    else Console.WriteLine("Нет!");
-	}
+
+		void Binary(int number)
 	
-	Triangle(1, 2, 3);
+		{
+	
+		    string Dec = "";
+	
+		    while (number > 0)
+	
+		    {
+	
+		        Dec = number % 2 + Dec;
+	
+		        number /= 2;
+	
+		    }
+	
+		    Console.WriteLine(Dec);
+	
+		}
+	
+		
+	
+		Binary(45);
