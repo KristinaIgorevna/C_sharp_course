@@ -1,5 +1,7 @@
-﻿
-// 1. Задайте двумерный массив размером m×n, заполненный случайными целыми числами. 
+﻿// // 2. Задайте двумерный массив размера m на n,
+//    каждый элемент в массиве находится по формуле: Aₘₙ = m+n.
+//    Выведите полученный массив на экран.
+
 
 void Print(int[,] arr)
 {
@@ -15,10 +17,9 @@ void Print(int[,] arr)
         Console.WriteLine();       
     }
     Console.WriteLine();
-
 }
 
-int[,] MassNums(int row, int column, int from, int to)
+int[,] MassNums(int row, int column)
 {
     int[,] arr = new int[row, column];
 
@@ -26,7 +27,7 @@ int[,] MassNums(int row, int column, int from, int to)
     {   
         for (int j = 0; j < column; j++)
         {
-            arr[i, j] = new Random().Next(from, to);
+            arr[i, j] = i + j;
         }        
     }
     return arr;
@@ -39,5 +40,6 @@ int row = int.Parse(Console.ReadLine());
 Console.WriteLine("Enter the number of columns: ");
 int column = int.Parse(Console.ReadLine());
 
-int[,] arr_1 = MassNums(row, column, 1, 101);
+int[,] arr_1 = MassNums(row, column);
 Print(arr_1);
+
