@@ -2,34 +2,31 @@
 // заполненный случайными вещественными числами
 
 
-void Print(double[,] arr)
+void PrintArray(double[,] arr)
 {
-    int row_size = arr.GetLength(0);
-    int column_size = arr.GetHashCode(1);
 
-    for (int i = 0; i < row_size; i++)
+    for (int i = 0; i < arr.GetLength(0); i++)
     {
-        for (int j = 0; i < column_size; j++)
+        for (int j = 0; j < arr.GetLength(1); j++)
         {
-            Console.Write($"{arr[i]} ");
+            Console.Write($" {arr[i, j]} ");
         }
         Console.WriteLine();
     }
 }
-    double[,] MassNums(int row, int column, int from, int to)
+
+double[,] FillArray(double[,] arr)
+{
+    for (int i = 0; i < arr.GetLength(0); i++)
     {
-        double[,] arr = new double[row, column];
-
-        for (int i = 0; i < row; i++)
+        for (int j = 0; j < arr.GetLength(1); j++)
         {
-            for (int j = 0; j < column; j++)
-            {
-                arr[i, j] = new Random().Next(from, to);
-            }
+            arr[i, j] = Math.Round(new Random().Next(-999, 1000) + new Random().NextDouble(), 2);
         }
-        return arr;
     }
+    return arr;
+}
 
-int[,] arr_1 = MassNums(3, 4, -99, 100);
-Print (arr_1);
-     
+double[,] arr = new double [3,4];
+FillArray(arr);
+PrintArray(arr);
