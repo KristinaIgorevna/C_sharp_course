@@ -59,5 +59,5 @@ Console.WriteLine();
 int[,] arr_1 = MassNums(row, column, 1, 101);
 Print(arr_1);
 
-Change(arr_1);
+Console.WriteLine(Change(arr_1));
 Print(arr_1);
