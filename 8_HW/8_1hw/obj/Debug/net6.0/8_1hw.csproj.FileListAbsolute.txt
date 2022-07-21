@@ -1,0 +1,15 @@
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/bin/Debug/net6.0/8_1hw
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/bin/Debug/net6.0/8_1hw.deps.json
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/bin/Debug/net6.0/8_1hw.runtimeconfig.json
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/bin/Debug/net6.0/8_1hw.dll
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/bin/Debug/net6.0/8_1hw.pdb
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/obj/Debug/net6.0/8_1hw.csproj.AssemblyReference.cache
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/obj/Debug/net6.0/8_1hw.GeneratedMSBuildEditorConfig.editorconfig
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/obj/Debug/net6.0/8_1hw.AssemblyInfoInputs.cache
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/obj/Debug/net6.0/8_1hw.AssemblyInfo.cs
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/obj/Debug/net6.0/8_1hw.csproj.CoreCompileInputs.cache
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/obj/Debug/net6.0/8_1hw.dll
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/obj/Debug/net6.0/refint/8_1hw.dll
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/obj/Debug/net6.0/8_1hw.pdb
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/obj/Debug/net6.0/8_1hw.genruntimeconfig.cache
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_1hw/obj/Debug/net6.0/ref/8_1hw.dll
