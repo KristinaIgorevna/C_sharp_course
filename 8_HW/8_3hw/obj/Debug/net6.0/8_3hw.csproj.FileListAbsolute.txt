@@ -1,0 +1,15 @@
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/obj/Debug/net6.0/8_3hw.csproj.AssemblyReference.cache
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/obj/Debug/net6.0/8_3hw.GeneratedMSBuildEditorConfig.editorconfig
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/obj/Debug/net6.0/8_3hw.AssemblyInfoInputs.cache
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/obj/Debug/net6.0/8_3hw.AssemblyInfo.cs
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/obj/Debug/net6.0/8_3hw.csproj.CoreCompileInputs.cache
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/bin/Debug/net6.0/8_3hw
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/bin/Debug/net6.0/8_3hw.deps.json
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/bin/Debug/net6.0/8_3hw.runtimeconfig.json
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/bin/Debug/net6.0/8_3hw.dll
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/bin/Debug/net6.0/8_3hw.pdb
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/obj/Debug/net6.0/8_3hw.dll
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/obj/Debug/net6.0/refint/8_3hw.dll
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/obj/Debug/net6.0/8_3hw.pdb
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/obj/Debug/net6.0/8_3hw.genruntimeconfig.cache
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_3hw/obj/Debug/net6.0/ref/8_3hw.dll
