@@ -3,3 +3,13 @@
 /Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/obj/Debug/net6.0/8_4hw.AssemblyInfoInputs.cache
 /Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/obj/Debug/net6.0/8_4hw.AssemblyInfo.cs
 /Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/obj/Debug/net6.0/8_4hw.csproj.CoreCompileInputs.cache
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/bin/Debug/net6.0/8_4hw
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/bin/Debug/net6.0/8_4hw.deps.json
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/bin/Debug/net6.0/8_4hw.runtimeconfig.json
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/bin/Debug/net6.0/8_4hw.dll
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/bin/Debug/net6.0/8_4hw.pdb
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/obj/Debug/net6.0/8_4hw.dll
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/obj/Debug/net6.0/refint/8_4hw.dll
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/obj/Debug/net6.0/8_4hw.pdb
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/obj/Debug/net6.0/8_4hw.genruntimeconfig.cache
+/Users/melinekarapetyan/Desktop/GeekBrain/C_sharp_course/8_HW/8_4hw/obj/Debug/net6.0/ref/8_4hw.dll

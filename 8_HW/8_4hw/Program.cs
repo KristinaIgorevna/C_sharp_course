@@ -31,10 +31,10 @@ int[,] MassNums(int row, int column, int from, int to)
     return arr;
 }
 
-
-int MinElem(int[,] arr)
+int[] MinElem(int[,] arr)
 {
     int min = arr[0, 0];
+    int[] position = new int[2];
     int count = 0;
     int row = arr.GetLength(0);
     int column = arr.GetLength(1);
@@ -44,50 +44,39 @@ int MinElem(int[,] arr)
         {
             for (int j = 0; j < column; j++)
             {
-                if (min > arr[i, j]) min = arr[i, j];
+                if (min > arr[i, j])
+                {
+                    min = arr[i, j];
+                position[0] = i;
+                position[1] = j;
+                }
             }
         }
         count++;
     }
-    return min;
+    Console.WriteLine(arr[position[0], position[1]]);
+    Console.WriteLine();
+    return position;
 }
 
-void CorrectMass(int[,] arr, int []min)
+void CorrectMass(int[,] arr, int[] position)
 {
-    int row = 0;
-    int col = 0;
     for (int i = 0; i < arr.GetLength(0); i++)
     {
-        for (int j = 0; j <arr.GetLength(1); j++)
-         {
-            if (arr[i, j] = min)
-            {
-                 row = i;
-                 col = j;
-                Console.WriteLine($"min element on {row + 1} {col + 1}");
-            }
-        }
-     }
-    for (int i = 0; i < arr.GetLength(0); i++)
+        for (int j = 0; j < arr.GetLength(1); j++)
         {
-            for (int j = 0; j < arr.GetLength(1); j++)
-            {
-                if (i==row || j== col) continue;
-                else Console.WriteLine ($"{arr[i,j],1}");
-            }
-            Console.WriteLine();
+            if (position[0] == i || position[1] == j) continue;
+            else Console.Write($"{arr[i, j],3}");
         }
-          Console.WriteLine();
+        Console.WriteLine();
+    }
+Console.WriteLine();
 }
-
-    Console.WriteLine("Введите число рядов: ");
-    int row = int.Parse(Console.ReadLine());
-
-    Console.WriteLine("Введите число колонок: ");
-    int column = int.Parse(Console.ReadLine());
-
-    int[,] arr_1 = MassNums(row, column, 1, 101);
-    Print(arr_1);
-
-    int [] mass= MinElem (arr_1);
-    CorrectMass(arr_1, mass);
+Console.WriteLine("Введите число рядов: ");
+int row = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число колонок: ");
+int column = int.Parse(Console.ReadLine());
+int[,] arr_1 = MassNums(row, column, 1, 20);
+Print(arr_1);
+int[] mass = MinElem(arr_1);
+CorrectMass(arr_1, mass);
