@@ -52,22 +52,22 @@ int MinElem(int[,] arr)
     return min;
 }
 
-void CorrectMass(int[,] arr, int min)
+void CorrectMass(int[,] arr, int []min)
 {
     int row = 0;
     int col = 0;
     for (int i = 0; i < arr.GetLength(0); i++)
     {
         for (int j = 0; j <arr.GetLength(1); j++)
-        {
-            if (arr[i, j] == min)
+         {
+            if (arr[i, j] = min)
             {
-                row = i;
-                col = j;
-                Console.WriteLine($"min element yf {row + 1} {col + 1}");
+                 row = i;
+                 col = j;
+                Console.WriteLine($"min element on {row + 1} {col + 1}");
             }
         }
-    }
+     }
     for (int i = 0; i < arr.GetLength(0); i++)
         {
             for (int j = 0; j < arr.GetLength(1); j++)
@@ -89,4 +89,5 @@ void CorrectMass(int[,] arr, int min)
     int[,] arr_1 = MassNums(row, column, 1, 101);
     Print(arr_1);
 
-    CorrectMass(arr_1,min);
+    int [] mass= MinElem (arr_1);
+    CorrectMass(arr_1, mass);
